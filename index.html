@@ -1,0 +1,307 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Anushree</a>
+
+
+
+    <!-- Navigation links -->
+    <nav class="navbar">
+      <a href="#" style="--i:1" class="active">Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#internship" style="--i:2">Internships</a>
+      <a href="#skills" style="--i:3">Skills</a>
+      <a href="#portfolio" style="--i:4">Portfolio</a>
+      <a href="#contact" style="--i:5">Contact</a>
+    </nav>
+
+    <!-- Theme toggle -->
+    <button type="button" id="theme-toggle" class="btn btn-light" onclick="toggleTheme()">Light</button>
+
+
+    <!-- Hamburger icon -->
+    <i class="bx bx-menu menu-toggle"></i>
+  </header>
+
+
+
+  <section class="home">
+    <div class="home-content">
+      <h3>Hello, It's</h3>
+      <h1 style="color: rgb(232, 167, 48);">Anushree Sinha</h1>
+      <h3>And I'm an <i>Engineer-in-the-making</i></h3>
+      <p>A passionate Computer Science Student who loves building innovative solutions. Always curious and driven, I’m committed to learning, growing, and making an impact through my work.</p>
+      <div class="home-sci">
+        <a href="https://www.instagram.com/anushreesinha02/?next=%2F" style="--i:8"><i
+            class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/anushree-sinha-686172271"
+          style="--i:10"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/anushreesinha02" style="--i:11"><i class='bx bxl-github'></i></a>
+
+      </div>
+      <a href="#about" class="btn-box">More about me</a>
+    </div>
+
+    <div class="about-profile-img">
+      <img src="Photo.jpeg" alt="profile">
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="Photo.jpeg" alt="About Me Image">
+    </div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <p>
+        Hi, I’m Anushree Sinha, a passionate and curious Computer Science Student.
+        I love building creative solutions that blend technology, design, and real-world impact. 
+        Whether it’s coding, problem-solving, or learning new skills, I always aim to bring energy, 
+        innovation, and attention to detail to everything I do.
+      </p>
+      <p>
+        I’m exploring opportunities to grow personally and professionally. 
+        When I’m not working on projects, you’ll find me being artistic and rarely poetic.
+      </p>
+      <p> 
+      I believe in lifelong learning, teamwork, and staying curious!
+      </p>
+    </div>
+  </section>
+
+  <section class="internship" id="internship">
+    <div class="container">
+      <h2 class="section-title">My <span>Internships</span></h2>
+  
+      <div class="internship-cards">
+        <div class="internship-card">
+          <h3>edorbit– Nbytech Immersive Pvt. Ltd.</h3>
+          <h4><i>Content Writer</i></h4>
+          <span class="internship-duration">20 May 2024 - 20 November 2024</span>
+          <p>Conducted in-depth research and created engaging, SEO-optimized content aligned with audience needs and
+            business goals.</p>
+          <p>Increased organic search traffic and maintained brand consistency while managing multiple projects under tight
+            deadlines.</p>
+          <p>Learned industry best practices, improved content quality, and adapted to evolving market trends.</p>
+          <p><a href="https://edorbit.com/author/anushree/" ><i class='bx bx-link-external'></i></a></p>
+        </div>
+  
+       
+      </div>
+    </div>
+  </section>
+  
+      
+  <h1 class="sub-title">My <span>Skills</span></h1>
+
+  <section id="skills">
+    <div class="container1" id="Skill">
+      <h1 class="heading1">Technical Skills</h1>
+      <div class="technical-bars">
+        <div class="bar"><i class='bx bxl-html5' style='color:#28DED3'></i>
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span> </span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-css3' style='color:#147bbc'></i>
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span> </span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-javascript' style='color:#b0bc1e'></i>
+          <div class="info">
+            <span>JavaScript</span>
+          </div>
+          <div class="progress-line js">
+            <span> </span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-java' style='color:#28DED3'></i>
+          <div class="info">
+            <span>Java</span>
+          </div>
+          <div class="progress-line java">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-python' style='color:#c32ec9'></i>
+          <div class="info">
+            <span>python</span>
+          </div>
+          <div class="progress-line python">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <h1 class="heading1">Professional Skills</h1>
+      <div class="radial-bars">
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox=" 0 0 200 200  ">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">95%</div>
+          <div class="text">Creativity</div>
+
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">communication</div>
+
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Problem Solving</div>
+
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">85%</div>
+          <div class="text">Team Work</div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2 class="section-title">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-grid">
+        <!-- Project Card -->
+        <div class="project-card">
+          <img src="image.png" alt="Project Image">
+          <div class="overlay">
+            <h3>Spotify Clone</h3>
+            <!-- <p style="color:black">A clean mobile-first UI design concept built using Figma, focused on accessibility and minimalism.</p> -->
+            <a href="project1.html" ><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Screenshot 2025-04-27 204938.png" alt="Project Image">
+          <div class="overlay">
+            <h3>Chatbot</h3>
+            <!-- <p>A fully functional iOS application built using SwiftUI and integrated with Firebase.</p> -->
+            <a href="project2.html"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Screenshot 2025-04-27 205354.png" alt="Project Image">
+          <div class="overlay">
+            <h3>Project Charity</h3>
+            <a href="project3.html" ><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Let’s <span>Connect</span>
+      </h2>
+
+      <div class="contact-wrapper">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+          <p>I’m open to freelance projects, collaborations, or just a friendly tech chat. Drop a message and I’ll get
+            back to you soon.</p>
+
+          <div class="info-block">
+            <i class='bx bxs-user'></i>
+            <div>
+              <h4>Name</h4>
+              <p>Anushree Sinha</p>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <i class='bx bxs-map'></i>
+            <div>
+              <h4>Location</h4>
+              <p>Lucknow, India</p>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <i class='bx bxs-envelope'></i>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:anuhsreesinha57@gmail.com" style="color:  rgba(179, 190, 206, 0.674);">anushreesinha57@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Send a Message</h3>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="80f2d83f-8e5f-40fe-b380-a23c8ef1a35f">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="send-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Anushree Sinha — Crafted with ❤️</p>
+    </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
